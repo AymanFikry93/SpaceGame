@@ -13,7 +13,10 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_game);
         //Getting display object
-        //master 
+
+        String branch="SpaceGame";
+
+
         Display display = getWindowManager().getDefaultDisplay();
 
         //Getting the screen resolution into point object
