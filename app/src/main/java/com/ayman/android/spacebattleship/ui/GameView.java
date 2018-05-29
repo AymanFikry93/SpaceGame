@@ -10,6 +10,15 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
+import com.ayman.android.spacebattleship.managers.GameMusicManager;
+import com.ayman.android.spacebattleship.managers.SharedPreferencesManager;
+import com.ayman.android.spacebattleship.objects.Boom;
+import com.ayman.android.spacebattleship.objects.CollideGameObject;
+import com.ayman.android.spacebattleship.objects.Enemy;
+import com.ayman.android.spacebattleship.objects.Friend;
+import com.ayman.android.spacebattleship.objects.Player;
+import com.ayman.android.spacebattleship.objects.Star;
+
 import java.util.ArrayList;
 
 /**
@@ -183,4 +192,4 @@ public class GameView extends SurfaceView implements Runnable {
     }
 }
 
-}
+

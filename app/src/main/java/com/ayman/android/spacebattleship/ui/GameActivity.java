@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Display;
 
+import com.ayman.android.spacebattleship.managers.GameMusicManager;
+
 public class GameActivity extends AppCompatActivity {
 
     private GameView gameView;
@@ -16,12 +18,12 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_game);
         //Getting display object
-        Display display = getWindowManager().getDefaultDisplay();
-
-        //Getting the screen resolution into point object
-        Point size = new Point();
-        display.getSize(size);
-
+//        Display display = getWindowManager().getDefaultDisplay();
+//
+//        //Getting the screen resolution into point object
+//        Point size = new Point();
+//        display.getSize(size);
+        gameView=new GameView(this);
         //Initializing game view object
 
         //adding it to contentview
